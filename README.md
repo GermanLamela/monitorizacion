@@ -4,8 +4,9 @@ La monitorización de sistemas es una tarea esencial para garantizar el rendimie
 
 Esta documentación está diseñada para proporcionar una guía práctica sobre cómo realizar la monitorización utilizando herramientas de línea de comandos en sistemas basados en Unix/Linux.
 
-**Índice**:
-1. Monitorización de procesos.
-2. Monitorización del almacenamiento.
-3. Monitorización de la red.
-4. Referencias.
+## Índice
+
+1. [Monitorización de procesos](monitorizacion_procesos.md)
+2. [Monitorización del almacenamiento](monitorizacion_almacenamiento.md)
+3. [Monitorización de la red](monitorizacion_red.md)
+4. [Referencias](referencias.md)
