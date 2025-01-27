@@ -117,7 +117,7 @@ El comando vmstat proporciona información sobre el rendimiento del sistema, inc
 
 ### Sintaxis básica:
 
-`   bashCopiarEditarvmstat [intervalo] [repeticiones]   `
+`   vmstat [intervalo] [repeticiones]   `
 
 ### Opciones comunes:
 
