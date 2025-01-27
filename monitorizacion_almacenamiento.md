@@ -20,7 +20,7 @@ El comando `df` permite conocer el uso y la disponibilidad del espacio en los si
 
 ### Opciones comunes:
 - `-h`: Muestra los datos en un formato legible para humanos.
-- ![Descripcion](http://github.com/GermanLamela/monitorizacion/blob/main/imagenes/dfh.PNG)
+- ![-h](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/dfh.PNG)
 - `-T`: Muestra el tipo de sistema de archivos.
 - ![Descripcion](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/dft.PNG)
 - `-x [tipo]`: Excluye sistemas de archivos del tipo especificado.
