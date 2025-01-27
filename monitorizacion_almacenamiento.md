@@ -39,6 +39,8 @@ du [ruta]
 ### Opciones comunes:
 
 *   \-h: Muestra los datos en un formato legible para humanos.
+
+*   ![](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/duh.PNG)
     
 *   \-s: Muestra solo el total del espacio utilizado.
     
