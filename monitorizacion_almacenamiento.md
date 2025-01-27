@@ -35,7 +35,8 @@ El comando `du` calcula el espacio que ocupan los directorios y archivos concret
 ### Uso básico:
 
 du [ruta]
-![](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/du.PNG)
+
+- ![](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/du.PNG)
 
 ### Opciones comunes:
 
