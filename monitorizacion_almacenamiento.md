@@ -46,7 +46,7 @@ El comando iostat forma parte del paquete sysstat y ofrece información estadís
 
 ### Instalación:
 
-`   bashCopiarEditarsudo apt install sysstat   `
+`   sudo apt install sysstat   `
 
 ### Opciones comunes:
 
@@ -64,11 +64,11 @@ El comando ncdu es una herramienta interactiva para analizar el uso del espacio 
 
 ### Instalación:
 
-`   bashCopiarEditarsudo apt install ncdu   `
+`   sudo apt install ncdu   `
 
 ### Uso básico:
 
-`   bashCopiarEditarncdu [ruta]   `
+`   ncdu [ruta]   `
 
 ### Características principales:
 
