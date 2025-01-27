@@ -113,8 +113,4 @@ atop es una herramienta avanzada que permite monitorizar procesos y otros recurs
 Qué es el PID
 -------------
 
-El **PID** (_Process ID_ o Identificador de Proceso) es un número único asignado por el sistema operativo a cada proceso en ejecución. Este identificador permite a los administradores distinguir y gestionar procesos individuales. Por ejemplo, puedes usar un PID para:
-
-*   kill
-    
-*   Mostrar información de un proceso específico con top -p.
+El **PID** (_Process ID_ o Identificador de Proceso) es un número único asignado por el sistema operativo a cada proceso en ejecución. Este identificador permite a los administradores distinguir y gestionar procesos individuales. 
