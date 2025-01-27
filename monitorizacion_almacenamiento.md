@@ -65,10 +65,16 @@ El comando iostat forma parte del paquete sysstat y ofrece información estadís
 ### Opciones comunes:
 
 *   \-x: Muestra estadísticas detalladas de los dispositivos.
+
+*   ![](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/iox.PNG)
     
 *   \-d: Muestra estadísticas de entrada/salida de los discos.
+
+*   ![](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/iod.PNG)
     
 *   \-c: Muestra el uso del CPU.
+
+*   ![](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/ioc.PNG)
     
 
 5\. Comando ncdu (Visor Interactivo del Uso de Espacio)
@@ -83,6 +89,8 @@ El comando ncdu es una herramienta interactiva para analizar el uso del espacio 
 ### Uso básico:
 
 `   ncdu [ruta]   `
+
+- [](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/ncdu.PNG)
 
 ### Características principales:
 
