@@ -35,6 +35,7 @@ El comando `du` calcula el espacio que ocupan los directorios y archivos concret
 ### Uso básico:
 
 du [ruta]
+![](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/du.PNG)
 
 ### Opciones comunes:
 
@@ -43,8 +44,12 @@ du [ruta]
 *   ![](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/duh.PNG)
     
 *   \-s: Muestra solo el total del espacio utilizado.
+
+*   ![](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/dus.PNG)
     
 *   \-d \[nivel\]: Especifica la profundidad del directorio que se desea analizar.
+
+*   ![](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/dud.PNG)
     
 
 4\. Comando iostat (Estadísticas de CPU y Disco)
