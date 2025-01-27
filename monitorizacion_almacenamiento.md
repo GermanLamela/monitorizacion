@@ -90,7 +90,7 @@ El comando ncdu es una herramienta interactiva para analizar el uso del espacio 
 
 `   ncdu [ruta]   `
 
-- [](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/ncdu.PNG)
+- ![](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/ncdu.PNG)
 
 ### Características principales:
 
