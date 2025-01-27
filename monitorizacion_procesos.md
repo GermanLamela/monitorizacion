@@ -21,13 +21,19 @@ El comando ps proporciona una instantánea de los procesos en ejecución, mostra
 *   ![Descripción de la imagen](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/ps.PNG)
     
 *   **ps a**: Lista todos los procesos asociados a un terminal.
+
+*  ![Descripción de la imagen](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/psa.PNG)
     
 *   **ps aux**: Muestra todos los procesos en el sistema, incluyendo los que no están vinculados a un terminal.
+
+*  ![Descripción de la imagen](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/psc.PNG)
     
 *   **ps -C** : Filtra procesos por nombre. Ejemplo:
     
 
 `   ps -C nano   `
+
+* ![Descripción de la imagen](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/psc.PNG)
 
 **Comentario**: Este comando es ideal para identificar procesos específicos o realizar un análisis rápido del sistema.
 
