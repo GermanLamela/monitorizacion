@@ -3,7 +3,7 @@ Monitorización de Procesos
 
 En la administración de sistemas informáticos y redes, la monitorización de procesos es fundamental para garantizar el rendimiento, la estabilidad y la seguridad de los servidores. Linux proporciona herramientas en línea de comandos que permiten monitorizar el uso de CPU, memoria y otros recursos del sistema en tiempo real. Si algún comando no está instalado, puedes instalarlo con el siguiente comando:
 
-`sudo apt install` 
+`sudo apt install <nombre_comando>` 
 
 1\. Comando ps
 --------------
