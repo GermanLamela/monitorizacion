@@ -110,7 +110,29 @@ atop es una herramienta avanzada que permite monitorizar procesos y otros recurs
 
 **Comentario**: atop es una herramienta esencial para monitorear sistemas de forma detallada y con la posibilidad de analizar históricos.
 
+5\. Comando vmstat
+------------------
+
+El comando vmstat proporciona información sobre el rendimiento del sistema, incluyendo procesos, memoria, paginación, bloques de E/S y uso de CPU.
+
+### Sintaxis básica:
+
+`   bashCopiarEditarvmstat [intervalo] [repeticiones]   `
+
+### Opciones comunes:
+
+*   vmstat: Muestra un resumen general del estado del sistema.
+    
+*   vmstat 2 5: Muestra el estado del sistema cada 2 segundos durante 5 repeticiones.
+    
+*   vmstat -s: Proporciona estadísticas del sistema en formato de lista.
+    
+
+**Comentario**: Este comando es útil para analizar problemas de rendimiento y el uso general de los recursos del sistema.
+
 Qué es el PID
 -------------
 
 El **PID** (_Process ID_ o Identificador de Proceso) es un número único asignado por el sistema operativo a cada proceso en ejecución. Este identificador permite a los administradores distinguir y gestionar procesos individuales. 
+
+
