@@ -66,6 +66,7 @@ El comando top permite monitorizar el sistema en tiempo real, proporcionando una
 ### Ejemplo:
 
 `   top -u root   `
+ ![Descripción de la imagen](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/top.PNG)
 
 **Comentario**: Es una herramienta clave para detectar procesos que consumen demasiados recursos.
 
@@ -81,8 +82,12 @@ htop es una versión mejorada de top, con una interfaz más interactiva y amigab
 ### Opciones:
 
 *   **htop -u** : Filtra procesos de un usuario específico.
+
+*   ![Descripción de la imagen](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/htopu.PNG)
     
 *   **htop --tree**: Muestra los procesos en una vista jerárquica.
+
+*    ![Descripción de la imagen](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/htoptree.PNG)
     
 *   **htop -p** : Muestra información específica sobre uno o varios procesos por su PID.
     
@@ -112,6 +117,8 @@ atop es una herramienta avanzada que permite monitorizar procesos y otros recurs
 ### Uso básico:
 
 *   atop
+
+*   ![Descripción de la imagen](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/atop.PNG)
     
 *   atop -r archivo\_de\_registro
     
@@ -132,6 +139,8 @@ El comando vmstat proporciona información sobre el rendimiento del sistema, inc
 *   vmstat: Muestra un resumen general del estado del sistema.
     
 *   vmstat 2 5: Muestra el estado del sistema cada 2 segundos durante 5 repeticiones.
+
+*    ![Descripción de la imagen](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/vmstat.PNG)
     
 *   vmstat -s: Proporciona estadísticas del sistema en formato de lista.
     
