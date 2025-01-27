@@ -4,10 +4,14 @@
 
 `tcpdump` permite capturar y analizar el tráfico de red que pasa a través de una interfaz de red.
 
+
 ### Uso básico:
 - `sudo tcpdump`: Captura todo el tráfico de red.
+- ![](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/tcp.PNG)
 - `sudo tcpdump -i <nombre_interfaz>`: Captura el tráfico de una interfaz específica.
+- ![](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/tcpi.PNG)
 - `sudo tcpdump port <nº puerto>`: Filtra el tráfico por el número de puerto.
+- ![](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/tcpport.PNG)
 
 ---
 
@@ -19,6 +23,9 @@
 ```bash 
 sudo tcptrack -i <nombre_interfaz>
 ```
+
+-![](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/tcpt.PNG)
+
 3\. Comando iptraf-ng
 ---------------------
 
@@ -31,8 +38,11 @@ iptraf-ng es una herramienta interactiva que proporciona estadísticas detallada
 
 `   sudo iptraf-ng   `
 
+-![](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/iptraf.PNG)
+
 1.  Seleccionar el tipo de monitorización.
-    
+
+    -![](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/iptraf1.PNG)
 
 4\. Comando netstat
 -------------------
@@ -46,13 +56,20 @@ netstat es una herramienta clásica para inspeccionar conexiones de red, sockets
 ### Uso básico:
 
 *   netstat -a: Muestra todas las conexiones y puertos de escucha.
+
+*   ![](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/neta.PNG)
     
 *   netstat -n: Muestra las direcciones y puertos en formato numérico.
+
+*   ![](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/netn.PNG)
     
 *   netstat -tp: Muestra los procesos asociados a las conexiones.
+
+*   ![](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/nettp.PNG)
     
 *   netstat -l: Muestra solo los puertos que están en escucha.
-    
+
+*   ![](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/netl.PNG)
 
 5\. Comando ss
 --------------
@@ -62,7 +79,13 @@ ss es una herramienta más moderna y eficiente que netstat para investigar conex
 ### Uso básico:
 
 *   ss -tuln: Muestra las conexiones TCP y UDP en escucha.
+
+*   ![](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/sstuln.PNG)
     
 *   ss -s: Muestra estadísticas resumidas sobre las conexiones.
+
+*   ![](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/sss.PNG)
     
 *   ss -p: Muestra los procesos que están utilizando las conexiones.
+
+*   ![](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/ssp.PNG)
