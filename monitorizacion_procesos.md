@@ -1,9 +1,9 @@
-onitorización de Procesos
+Monitorización de Procesos
 ==========================
 
 En la administración de sistemas informáticos y redes, la monitorización de procesos es fundamental para garantizar el rendimiento, la estabilidad y la seguridad de los servidores. Linux proporciona herramientas en línea de comandos que permiten monitorizar el uso de CPU, memoria y otros recursos del sistema en tiempo real. Si algún comando no está instalado, puedes instalarlo con el siguiente comando:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`sudo apt install` 
+`sudo apt install` 
 
 1\. Comando ps
 --------------
@@ -12,7 +12,7 @@ El comando ps proporciona una instantánea de los procesos en ejecución, mostra
 
 ### Sintaxis básica:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   ps [opciones]   `
+`   ps [opciones]   `
 
 ### Opciones comunes:
 
@@ -25,7 +25,7 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 *   **ps -C** : Filtra procesos por nombre. Ejemplo:
     
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   ps -C nano   `
+`   ps -C nano   `
 
 **Comentario**: Este comando es ideal para identificar procesos específicos o realizar un análisis rápido del sistema.
 
@@ -36,7 +36,7 @@ El comando top permite monitorizar el sistema en tiempo real, proporcionando una
 
 ### Sintaxis básica:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   top [opciones]   `
+`   top [opciones]   `
 
 ### Opciones comunes:
 
@@ -57,7 +57,7 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 
 ### Ejemplo:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   top -u root   `
+`   top -u root   `
 
 **Comentario**: Es una herramienta clave para detectar procesos que consumen demasiados recursos.
 
@@ -68,7 +68,7 @@ htop es una versión mejorada de top, con una interfaz más interactiva y amigab
 
 ### Sintaxis básica:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   htop [opciones]   `
+`   htop [opciones]   `
 
 ### Opciones:
 
