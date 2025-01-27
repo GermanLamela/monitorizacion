@@ -6,8 +6,11 @@ El comando `free` muestra información sobre el uso de la memoria RAM (libre y u
 
 ### Opciones comunes:
 - `-h`: Muestra los datos en un formato legible para humanos.
+- ![Descripcion](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/freeh.PNG)
 - `-t`: Incluye la memoria total en el resumen.
+- ![Descripcion](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/freet.PNG)
 - `-s [segundos]`: Actualiza la información cada cierto intervalo de tiempo.
+- ![Descripcion](https://github.com/GermanLamela/monitorizacion/blob/main/imagenes/frees.PNG)
 
 ---
 
