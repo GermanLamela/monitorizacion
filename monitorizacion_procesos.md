@@ -17,7 +17,8 @@ El comando ps proporciona una instantánea de los procesos en ejecución, mostra
 ### Opciones comunes:
 
 *   **ps sin opciones**: Muestra los procesos asociados con la sesión actual del terminal.
-    ![Descripción de la imagen](https://github.com/GermanLamela/monitorizacion/imagenes/ps.PNG)
+
+      ![Descripción de la imagen](https://github.com/GermanLamela/monitorizacion/imagenes/ps.PNG)
     
 *   **ps a**: Lista todos los procesos asociados a un terminal.
     
